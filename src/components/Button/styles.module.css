@@ -1,0 +1,14 @@
+.btn {
+  border: none; /* Remove borders */
+  color: black; /* Add a text color */
+  padding: 14px 28px; /* Add some padding */
+  cursor: pointer; /* Add a pointer cursor on mouse-over */
+  background-color: greenyellow;
+  border-radius: 5px;
+  font-size: medium;
+  margin: 20px;
+}
+
+.btn:active {
+  background-color: rgb(128, 191, 33);
+}
