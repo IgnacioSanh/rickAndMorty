@@ -8,7 +8,7 @@ import styles from "./styles.module.css";
 import { speciesSelect } from "./constants";
 import { useEffect } from "react";
 
-const RickAndMorty = () => {
+const AllCharactersScreen = () => {
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
   const [characters, setCharacters] = useState([]);
@@ -71,4 +71,4 @@ const RickAndMorty = () => {
   );
 };
 
-export default RickAndMorty;
+export default AllCharactersScreen;

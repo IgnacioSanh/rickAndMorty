@@ -6,12 +6,12 @@ import Button from "../Button/Button";
 
 import styles from "./styles.module.css";
 
-const RMCard = ({ character, handleDelete, showDeleteButton = false }) => {
+const RMCard = ({ character, handleDelete, showDeleteButton }) => {
   const { id, name, species, status, location, image, origin } = character;
 
   function onDelete(id) {
+    console.log(`BORRANDO EL PERSONAJE CON ID ${id}`);
     handleDelete(id);
-    console.log("Funcion ejecutada dentro de la tarjeta");
   }
 
   return (
